@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cat.xat</groupId>
-    <artifactId>server</artifactId>
+    <artifactId>Servidor</artifactId>
     <version>1.0</version>
 
     <properties>
@@ -39,7 +39,7 @@
                         <configuration>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>ChatServer</mainClass>
+                                    <mainClass>WsServidor</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
